@@ -9,11 +9,13 @@ int main(void)
 {
 	int count = 0;
 
-	for (int i = 0; i <= 7; i++)
+	int i, j, k;
+
+	for (i = 0; i <= 7; i++)
 	{
-		for (int j = 1 + i; j <= 8; j++)
+		for (j = 1 + i; j <= 8; j++)
 		{
-			for (int k = 1 + j; k <= 9; k++)
+			for (k = 1 + j; k <= 9; k++)
 			{
 				if (count > 0)
 				{

@@ -8,10 +8,11 @@
 int main(void)
 {
 	int count = 0;
+	int i, j;
 
-	for (int i = 0; i <= 8; i++)
+	for (i = 0; i <= 8; i++)
 	{
-		for (int j = i + 1; j <= 9; j++)
+		for (j = i + 1; j <= 9; j++)
 		{
 			if (count > 0)
 			{
