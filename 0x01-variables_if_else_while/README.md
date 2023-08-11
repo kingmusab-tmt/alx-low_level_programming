@@ -8,3 +8,4 @@
 6-print_numberz.c: a programm that prints all single digit numbers of base 10 starting from 0 without using printf, puts etc only putchar
 7-print_tebahpla.c: a program that prints the lowercase alphabet in reverse
 9-print_comb.c: a program that prints all possible cominations of single digit numbers
+100-print_com3.c: a program that prints all possible different combinations of two digits
