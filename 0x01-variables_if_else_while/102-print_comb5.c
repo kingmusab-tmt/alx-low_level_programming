@@ -17,9 +17,9 @@ int main(void)
 		for (j = i + 1; j < 100; j++)
 		{
 			int tens_j = j / 10;
-			
+
 			int ones_j = j % 10;
-			
+
 			putchar(tens_i + '0');
 			putchar(ones_i + '0');
 			putchar(' ');
