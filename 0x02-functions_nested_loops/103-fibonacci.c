@@ -10,6 +10,7 @@ int main(void)
 
 	unsigned long fib2 = 2;
 	unsigned long sum = 0;
+	unsigned long temp;
 
 	while (fib2 <= 4000000)
 	{
@@ -17,7 +18,7 @@ int main(void)
 		{
 			sum += fib2;
 		}
-		unsigned long temp = fib2;
+		temp = fib2;
 
 		fib2 = fib1 + fib2;
 		fib1 = temp;
