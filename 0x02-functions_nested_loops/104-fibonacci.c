@@ -12,7 +12,7 @@ int main(void)
 
 	printf("%d, %d", fib1, fib2);
 	count += 2;
-	while (count < n)
+	while (count < 98)
 	{
 		int fib_next = fib1 + fib2;
 		printf(", %d", fib_next);
