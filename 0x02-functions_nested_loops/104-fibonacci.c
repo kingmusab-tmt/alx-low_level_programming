@@ -8,19 +8,18 @@ int main(void)
 {
 	int fib1 = 1;
 	int fib2 = 2;
-	int count = 0;
+	int i;
+	int fib3;
 
 	printf("%d, %d", fib1, fib2);
-	count += 2;
-	while (count < 98)
+	for (i = 2; i < 98; ++i)
 	{
-		int fib_next = fib1 + fib2;
-		printf(", %d", fib_next);
+		fib3 = fib1 + feb2
+			printf(", %d", fib3);
 		fib1 = fib2;
-		fib2 = fib_next;
-		count++;
-	 }
+		fib2 = fib3;
+	}
 	printf("\n");
+
 	return (0);
 }
-
