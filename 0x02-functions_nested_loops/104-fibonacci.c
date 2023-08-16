@@ -14,7 +14,7 @@ int main(void)
 	printf("%d, %d", fib1, fib2);
 	for (i = 2; i < 98; ++i)
 	{
-		fib3 = fib1 + feb2
+		fib3 = fib1 + fib2;
 			printf(", %d", fib3);
 		fib1 = fib2;
 		fib2 = fib3;
