@@ -11,6 +11,12 @@ void print_square(int size)
 	int count = 0;
 	int mul;
 
+	if (size <= 0)
+	{
+		_putchar('\n');
+		return;
+	k}
+
 	while (count < size)
 	{
 		for (mul = 0; mul < size; mul++)
