@@ -10,14 +10,16 @@ char *rot13(char *str)
 {
 	int i;
 	char c;
-	for (i = 0; str[i] != '\0'; i++) 
+	char base;
+
+	for (i = 0; str[i] != '\0'; i++)
 	{
 		c = str[i];
-        if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+		if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
 	{
-		char base = (c >= 'A' && c <= 'Z') ? 'A' : 'a';
+		base = (c >= 'A' && c <= 'Z') ? 'A' : 'a';
 		str[i] = ((c - base + 13) % 26) + base;
 	}
 	}
-	return str;
+	return (str);
 }

@@ -9,7 +9,7 @@
 char *leet(char *str)
 {
 	char leet_replacements[] = "AaEeOoTtLl";
-	char leet_encoding[] = "44337711";
+	char leet_encoding[] = "4433007711";
 	int i;
 	int j;
 
