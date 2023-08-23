@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * _strcmp - function compares two strings
@@ -6,7 +5,7 @@
  * @s1: first string
  * @s2: second string
  *
- * Return: integer value 
+ * Return: integer value
  */
 int _strcmp(char *s1, char *s2)
 {
