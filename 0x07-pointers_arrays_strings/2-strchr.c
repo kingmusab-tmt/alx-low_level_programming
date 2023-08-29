@@ -22,5 +22,9 @@ char *_strchr(char *s, char c)
 			return (a);
 		}
 	}
+	if (*s == c)
+	{
+		return (char *)s;
+	}
 	return (NULL);
 }
