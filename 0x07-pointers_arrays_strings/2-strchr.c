@@ -14,20 +14,17 @@ char *_strchr(char *s, char c)
 	int i;
 	char *a;
 
-	if (*s == c)
-	{
-		return ((char *)s);
-	} else
-	{
-		for (i = 0; s[i] != '\0'; i++)
+	for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == c)
 		{
 			a = &s[i];
 			return (a);
 		}
+		if (s[i] == '\0')
+		{
+		return (NULL);
+		}	
 	}
-	}
-	
 	return (NULL);
 }
