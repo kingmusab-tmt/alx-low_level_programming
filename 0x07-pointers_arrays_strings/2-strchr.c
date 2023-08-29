@@ -14,11 +14,12 @@ char *_strchr(char *s, char c)
 	int i;
 	char *a;
 
-	if (c == '\0')
+	if (*s == c)
 	{
-		return (NULL);
-	}
-	for (i = 0; s[i] != '\0'; i++)
+		return ((char *)s);
+	} else
+	{
+		for (i = 0; s[i] != '\0'; i++)
 	{
 		if (s[i] == c)
 		{
@@ -26,5 +27,7 @@ char *_strchr(char *s, char c)
 			return (a);
 		}
 	}
+	}
+	
 	return (NULL);
 }
