@@ -16,13 +16,13 @@ int primeValue(int n, int i)
 	{
 		return (0);
 	}
-	return primeValue(n, i + 1);
+	return (primeValue(n, i + 1));
 }
 /**
  * is_prime_number - function that checks for primse number
  *
  * @n: number to be checked
- * return: 1 if the integer is a prime number otherwise 0
+ * Return: 1 if the integer is a prime number otherwise 0
  */
 int is_prime_number(int n)
 {
