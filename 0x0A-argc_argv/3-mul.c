@@ -5,7 +5,7 @@
  * @argc: counter
  * @argv: value passed
  *
- * return: 0 success and 1 for error
+ * Return: 0 success and 1 for error
  */
 int main(int argc, char **argv)
 {
