@@ -23,10 +23,10 @@ char *str_concat(char *s1, char *s2)
 	for (count2 = 0; s2[count2]; count2++)
 		;
 	bufferSize = count1 + count2 + 1;
-	p = malloc(BufferSize * sizeof(char));
+	p = malloc(bufferSize * sizeof(char));
 	if (p == NULL)
 		return (NULL);
-	for (i = 0; i < BufferSize; i++)
+	for (i = 0; i < bufferSize; i++)
 		i < count1 ? (p[i] = s1[i]) : (p[i] = s2[i - count1]);
 	return (p);
 }
