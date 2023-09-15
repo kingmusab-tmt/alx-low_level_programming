@@ -31,8 +31,8 @@ int main(int argc, char *argv[])
 	return (0);
 }
 /**
- * print_opcodes: function to print main opcodes
- * start: staring point
+ * print_opcodes - function to print main opcodes
+ * @start: staring point
  * @num_bytes: number of bytes
  * Return: opcodes in hexa
  */
