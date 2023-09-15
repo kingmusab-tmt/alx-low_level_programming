@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "function_pointers.h"
 /**
- * main - entry point 
+ * main - entry point
  * @argc: argment counrter
  * @argv: array of argument
  * Return: 1 error 2 error and 0 ALways succes
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 
 	start = (char *)main;
 	print_opcodes(start, num_bytes);
-	return 0;
+	return (0);
 }
 /**
  * print_opcodes: function to print main opcodes
