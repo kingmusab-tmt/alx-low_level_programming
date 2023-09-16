@@ -1,8 +1,10 @@
 #ifndef VARIADIC_FUNC
 #define VARIADIC_FUNC
-
-#define VALIDTYPESCONDITIONAL(i) (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's')
-
+/**
+ * struct validTypes - structe of v_types
+ * @valid: valid characters
+ * @f: pointer to function
+ */
 typedef struct validTypes
 {
 	char *valid;
